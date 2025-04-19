@@ -1,0 +1,30 @@
+/* Title */
+.sideBar-title{
+    width: 100%;
+    text-align:  center;
+    padding: 20px 0px;
+}
+.sideBar-title span{
+    color: var(--Blue);
+}
+
+/* Unordered List */
+.sideBar-items ul{ 
+    margin: 15px;
+    list-style: none;
+}
+.sideBar-items li{ 
+    padding: 12px 0px 12px 12px;
+    margin: 2px 0px;
+    color: var(--Black);
+}
+.sideBar-items li:hover{
+    background-color: var(--Blue);
+    border-radius: 5px;
+    color: var(--White);
+}
+.item-icon{
+    padding: 10px;
+    vertical-align: middle;
+}
+

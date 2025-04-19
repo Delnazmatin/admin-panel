@@ -1,0 +1,31 @@
+
+.categoryTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid var(--DarkGray);
+    background-color: var(--White);
+
+}
+.categoryTable table{
+    border-collapse: collapse;
+    
+}
+
+.categoryTable thead{
+    color: var(--Black);
+    background-color: var(--MiddleGray);
+}
+.categoryTable tbody{
+    color: var(--BlackGray);
+}
+.categoryTable th,td{
+    padding: 10px;
+}
+
+.categoryTable td, th{
+    border-bottom: 1px solid var(--DarkGray);
+}
+

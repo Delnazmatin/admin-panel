@@ -1,0 +1,40 @@
+.error-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/background.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.error-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--White);
+    border-radius: 5px;
+    box-sizing: 5px;
+    width: 360px;
+    height: 380px;
+}
+.error-image img{
+    width: 300px;
+    height:fit-content;
+}
+.error-description p{
+    margin-top: 25px;
+}
+
+.error-backButton span{
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: var(--Blue);
+    color: var(--White);
+    text-align: center;
+    margin-top: 15px;
+}

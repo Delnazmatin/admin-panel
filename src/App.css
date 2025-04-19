@@ -1,0 +1,22 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+#root{
+  --Blue: #4880FF;
+  --LightBlue: #6094ef;
+  --White: #FFFFFF;
+  --Black: #202224;
+  --Gray: #F5F6FA;
+  --MiddleGray: #F9F9FB;
+  --DarkGray: #D8D8D8;
+  --BlackGray: #979797;
+  --Red: #EF3826;
+}
+body {
+  font-family: 'Mulish', sans-serif;
+}
+

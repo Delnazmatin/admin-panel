@@ -1,0 +1,35 @@
+.filterBoxContainer{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 1px solid var(--DarkGray);
+    background-color: var(--MiddleGray);
+    color: var(--Black);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.filterBox{
+    border-right: 1px solid var(--DarkGray);
+    width: fit-content;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;  
+    vertical-align: middle;
+}
+.filterBox:last-child{
+    border-right: none;
+}
+.filterBox span{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    vertical-align: middle;
+}
+.filterBox:hover{
+    border: 1px solid var(--Blue)
+}
+.filterBox:first-child:hover{
+    border: none
+}
+

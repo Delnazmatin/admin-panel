@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Container*/
+.layout-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+} 
+/*Header*/
+.layout-header{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+}
+/*Content*/
+.layout-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+/*SideBar*/
+.layout-sideBar{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    flex-shrink: 0;
+    height: 100vh;
+}
+/*main*/
+.layout-main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--Gray);
+}
+
+
+
+a{
+    text-decoration: none;
+}

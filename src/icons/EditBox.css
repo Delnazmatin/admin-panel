@@ -1,0 +1,23 @@
+
+.editBox{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    vertical-align: middle;
+}
+.editBox span{
+    background-color: var(--MiddleGray);
+    display: inline-block;
+    padding: 5px;
+
+    border: 1px solid var(--DarkGray);
+}
+.editBox span:first-child{
+    border-right: 0.5px;
+}
+.editBox span:last-child{
+}
+.editBox span:hover{
+    border: 0.5px solid var(--Blue);
+}
