@@ -1,67 +1,67 @@
-.signIn-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-image: url('/background.jpg');
-    background-size:cover;
-    background-repeat: no-repeat;
+.signIn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url('/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.signIn-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--White);
-    border-radius: 5px;
-    box-sizing: 5px;
-    width: 360px;
-    height: 400px;
+.signIn-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--White);
+  border-radius: 5px;
+  box-sizing: 5px;
+  width: 360px;
+  height: 400px;
 }
-.signIn-content h3{
-    margin: 30px 0px 10px;
+.signIn-content h3 {
+  margin: 30px 0px 10px;
 }
-.signIn-content p{
-    font-size: 12px;
-    color: var(--BlackGray);
+.signIn-content p {
+  font-size: 12px;
+  color: var(--BlackGray);
 }
-.signIn-description{
-    margin-bottom: 20px;
+.signIn-description {
+  margin-bottom: 20px;
 }
-.signIn-inputBox{
-   margin: 10px 0px;
+.signIn-inputBox {
+  margin: 10px 0px;
 }
-.signIn-input{
-    background-color: var(--Gray);
-    width: 280px;
-    padding: 10px 0px 10px 5px;
-    
-    border-radius: 5px;
-    border: 1px solid var(--DarkGray);
-    font-size: 12px;
+.signIn-input {
+  background-color: var(--Gray);
+  width: 280px;
+  padding: 10px 0px 10px 5px;
+
+  border-radius: 5px;
+  border: 1px solid var(--DarkGray);
+  font-size: 12px;
 }
-.signInLabel{
-    padding-bottom: 5px;
+.signInLabel {
+  padding-bottom: 5px;
 }
-.signIn-submit button{
-    display: inline-block;
-    font-size: 12px;
-    padding: 8px;
-    width: 180px;
-    border-radius: 5px;
-    background-color: var(--Blue);
-    color: var(--White);
-    text-align: center;
-    margin-top: 30px;
-    border: 1px solid gray;
+.signIn-submit button {
+  display: inline-block;
+  font-size: 12px;
+  padding: 8px;
+  width: 180px;
+  border-radius: 5px;
+  background-color: var(--Blue);
+  color: var(--White);
+  text-align: center;
+  margin-top: 30px;
+  border: 1px solid gray;
 }
-.signIn-createAdmin{
-    margin-top: 10px;
+.signIn-createAdmin {
+  margin-top: 10px;
 }
-.signIn-createAdmin h5{
-    color: var(--Blue);
+.signIn-createAdmin h5 {
+  color: var(--Blue);
 }
-.signIn-createAdmin h5:active{
-    color: var(--LightBlue);
+.signIn-createAdmin h5:active {
+  color: var(--LightBlue);
 }

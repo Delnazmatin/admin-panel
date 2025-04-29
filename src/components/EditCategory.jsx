@@ -1,8 +1,6 @@
-import './AddCategory.css'
-import React from 'react'
+import './AddCategory.css';
+import React from 'react';
 
 export const EditCategory = () => {
-  return (
-    <div>EditCategory</div>
-  )
-}
+  return <div>EditCategory</div>;
+};

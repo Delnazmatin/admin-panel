@@ -1,47 +1,46 @@
-.profilePopUp-container{
-    background-color: var(--Gray);
-    width: 200px;
-    height: 200px;
-    border-radius: 5px;
-    border: 3px solid var(--DarkGray);
+.profilePopUp-container {
+  background-color: var(--Gray);
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  border: 3px solid var(--DarkGray);
 
-    position:fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 1;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
 }
-.profilePopUp-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
+.profilePopUp-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
 }
-.closeButton{
-    display: inline;
-    width: 10px;
-    height: 10px;
-    align-self: flex-end;
+.closeButton {
+  display: inline;
+  width: 10px;
+  height: 10px;
+  align-self: flex-end;
 }
-.profilePopUp-profile{
-    margin-bottom: 10px;
+.profilePopUp-profile {
+  margin-bottom: 10px;
 }
-.profilePopUp-content h3{
-    color: var(--BlackGray);
+.profilePopUp-content h3 {
+  color: var(--BlackGray);
 }
-.profilePopUp-content p{
-    font-size: 12px;
-    color: var(--Blue);
+.profilePopUp-content p {
+  font-size: 12px;
+  color: var(--Blue);
 }
-.signOut-button span{
-    display: inline-block;
-    font-size: 12px;
-    padding: 8px;
-    width: 150px;
-    border-radius: 5px;
-    background-color: var(--Blue);
-    color: var(--White);
-    text-align: center;
-    margin-top: 30px;
+.signOut-button span {
+  display: inline-block;
+  font-size: 12px;
+  padding: 8px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: var(--Blue);
+  color: var(--White);
+  text-align: center;
+  margin-top: 30px;
 }
-

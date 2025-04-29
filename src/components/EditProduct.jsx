@@ -1,8 +1,6 @@
-import './EditProduct.css'
-import React from 'react'
+import './EditProduct.css';
+import React from 'react';
 
 export const EditProduct = () => {
-  return (
-    <div>EditProduct</div>
-  )
-}
+  return <div>EditProduct</div>;
+};

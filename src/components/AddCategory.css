@@ -1,76 +1,76 @@
-.addCategory-container{
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
+.addCategory-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
 }
-.addCategory-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 20px;
+.addCategory-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
 }
-.addCategory-content{
-    background-color: var(--White);
-    border-radius: 5px;
-    height: 650px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.addCategory-content {
+  background-color: var(--White);
+  border-radius: 5px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.addCategory-uploadPhoto{
-    margin: 40px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.addCategory-uploadPhoto {
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.addCategory-uploadPhoto span{
-    display: inline-block;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 50px;
-    padding: 15px;
-    background-color: var(--Gray);
+.addCategory-uploadPhoto span {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50px;
+  padding: 15px;
+  background-color: var(--Gray);
 }
-.addCategory-uploadPhoto p{
-    color: var(--Blue);
-    font-size: 12px;
-    padding-top: 5px;
+.addCategory-uploadPhoto p {
+  color: var(--Blue);
+  font-size: 12px;
+  padding-top: 5px;
 }
-.addCategory-form{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.addCategory-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.addCategory-input{
-    background-color: var(--Gray);
-    width: 300px;
-    padding: 10px 0px 10px 5px;
-    margin: 20px;
-    border-radius: 5px;
-    border: 1px solid var(--DarkGray);
-    font-size: 12px;
+.addCategory-input {
+  background-color: var(--Gray);
+  width: 300px;
+  padding: 10px 0px 10px 5px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--DarkGray);
+  font-size: 12px;
 }
-.labelInput{
-    padding-left: 20px;
-    line-height: 0.5px;
+.labelInput {
+  padding-left: 20px;
+  line-height: 0.5px;
 }
-.InputBox{
-    margin-top: 20px;
+.InputBox {
+  margin-top: 20px;
 }
-.addCategory-submit{
-    margin-top: 20px;
+.addCategory-submit {
+  margin-top: 20px;
 }
-.addCategory-submit span{
-    display: inline-block;
-    font-size: 12px;
-    padding: 8px;
-    width: 140px;
-    border-radius: 5px;
-    background-color: var(--Blue);
-    color: var(--White);
-    text-align: center;
+.addCategory-submit span {
+  display: inline-block;
+  font-size: 12px;
+  padding: 8px;
+  width: 140px;
+  border-radius: 5px;
+  background-color: var(--Blue);
+  color: var(--White);
+  text-align: center;
 }
-.addCategory-submit span:hover{
-    background-color: var(--LightBlue);
+.addCategory-submit span:hover {
+  background-color: var(--LightBlue);
 }

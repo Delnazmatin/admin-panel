@@ -1,22 +1,21 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.dashboard-content {
+  width: 100%;
+}
+.dashboard-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 
-.dashboard-container{
-    display: flex;
-    flex-direction: column;
-    padding: 15px; 
-}
-.dashboard-content{
-    width: 100%;
-}
-.dashboard-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.dashboard-content img{
- width:inherit;
- height:auto;
- border-radius: 5px;
+.dashboard-content img {
+  width: inherit;
+  height: auto;
+  border-radius: 5px;
 }

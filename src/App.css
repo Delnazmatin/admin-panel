@@ -5,18 +5,17 @@
   text-align: center;
 } */
 
-#root{
-  --Blue: #4880FF;
+#root {
+  --Blue: #4880ff;
   --LightBlue: #6094ef;
-  --White: #FFFFFF;
+  --White: #ffffff;
   --Black: #202224;
-  --Gray: #F5F6FA;
-  --MiddleGray: #F9F9FB;
-  --DarkGray: #D8D8D8;
+  --Gray: #f5f6fa;
+  --MiddleGray: #f9f9fb;
+  --DarkGray: #d8d8d8;
   --BlackGray: #979797;
-  --Red: #EF3826;
+  --Red: #ef3826;
 }
 body {
   font-family: 'Mulish', sans-serif;
 }
-
