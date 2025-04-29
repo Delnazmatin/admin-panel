@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './CreateAdmin.css';
+import { useNavigate } from 'react-router-dom';
 
 export const CreateAdmin = () => {
+  const navigate = useNavigate();
   const [signUpError, setSignUpError] = useState({
     name: '',
     email: '',
@@ -40,7 +42,7 @@ export const CreateAdmin = () => {
     if (Object.values(newErrors).some(error => error)) {
       return;
     }
-
+    navigate('/signIn', { replace: true });
     formElements.reset();
   }
 

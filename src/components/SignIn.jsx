@@ -1,8 +1,10 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './SignIn.css';
 import React, { useState } from 'react';
+import { ProtectedRoute } from './ProtectedRoute';
 
-export const SignIn = () => {
+export const SignIn = ({ setIsAuthenticated }) => {
+  const navigate = useNavigate();
   const [signInErrors, setSignInErrors] = useState({
     email: '',
     password: '',
@@ -25,7 +27,8 @@ export const SignIn = () => {
     if (Object.values(newErrors).some(error => error)) {
       return;
     }
-
+    setIsAuthenticated(true);
+    navigate('/', { replace: true });
     formElements.reset();
   }
   return (

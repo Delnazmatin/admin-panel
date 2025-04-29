@@ -1,9 +1,9 @@
-.table-container {
+.priceList-container {
   display: flex;
   flex-direction: column;
   padding: 15px;
 }
-.table-header {
+.priceList-header {
   display: flex;
   flex-direction: row;
   align-items: center;
