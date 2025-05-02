@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './CreateAdmin.css';
+import './SignUp.css';
 import { useNavigate } from 'react-router-dom';
 
-export const CreateAdmin = () => {
+export const SignUp = () => {
   const navigate = useNavigate();
   const [signUpError, setSignUpError] = useState({
     name: '',

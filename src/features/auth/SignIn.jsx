@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import './SignIn.css';
 import React, { useState } from 'react';
-import { ProtectedRoute } from './ProtectedRoute';
+import { ProtectedRoute } from '../../routes/ProtectedRoute';
 
 export const SignIn = ({ setIsAuthenticated }) => {
   const navigate = useNavigate();
@@ -80,7 +80,7 @@ export const SignIn = ({ setIsAuthenticated }) => {
         </span>
 
         <span className="signIn-createAdmin">
-          <Link to="/createAdmin">
+          <Link to="/signUp">
             <h5>Create Account</h5>
           </Link>
         </span>

@@ -1,19 +1,17 @@
 import React, { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { Layout } from './components/Layout';
-import { Category } from './components/Category';
-import { Table } from './components/Table';
-import { AddCategory } from './components/AddCategory';
-import { SignIn } from './components/SignIn';
-import { Error } from './components/Error';
-import { Dashboard } from './components/Dashboard';
-import { Products } from './components/Products';
-import { AddProduct } from './components/AddProduct';
-import { EditProduct } from './components/EditProduct';
-import { EditCategory } from './components/EditCategory';
-import { CreateAdmin } from './components/CreateAdmin';
-import { ProtectedRoute } from './components/ProtectedRoute';
-import { PriceList } from './components/PriceList';
+import { Layout } from '../components/layout/Layout';
+import { Category } from '../features/categories/Category';
+import { AddCategory } from '../features/categories/AddCategory';
+import { SignIn } from '../features/auth/SignIn';
+import { Error } from '../components/common/Error';
+import { Dashboard } from '../features/dashboard/Dashboard';
+import { Products } from '../features/products/Products';
+import { AddProduct } from '../features/products/AddProduct';
+import { EditCategory } from '../features/categories/EditCategory';
+import { SignUp } from '../features/auth/SignUp';
+import { ProtectedRoute } from './ProtectedRoute';
+import { PriceList } from '../features/priceList/PriceList';
 
 export const Routing = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -24,7 +22,7 @@ export const Routing = () => {
           path="/signIn"
           element={<SignIn setIsAuthenticated={setIsAuthenticated} />}
         />
-        <Route path="/createAdmin" element={<CreateAdmin />} />
+        <Route path="/signUp" element={<SignUp />} />
         {/* <Route element={<Error />} /> */}
         <Route path="*" element={<Error />} />
 
@@ -43,7 +41,6 @@ export const Routing = () => {
           <Route path="/products" element={<Products />} />
           <Route path="/products/addProduct" element={<AddProduct />} />
           <Route path="/products/edit" element={<AddProduct />} />
-          <Route path="/table" element={<Table />} />
           <Route path="/priceList" element={<PriceList />} />
         </Route>
       </Routes>

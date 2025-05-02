@@ -1,6 +1,6 @@
 import './Dashboard.css';
-
 import React from 'react';
+import dashboardImage from '../../assets/dashboard.jpg';
 
 export const Dashboard = () => {
   return (
@@ -9,7 +9,7 @@ export const Dashboard = () => {
         <h3>Dashboard</h3>
       </div>
       <div className="dashboard-content">
-        <img src="/dashboard.jpg" alt="dashboard" />
+        <img src={dashboardImage} alt="dashboard" />
       </div>
     </div>
   );
