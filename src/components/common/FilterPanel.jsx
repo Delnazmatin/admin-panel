@@ -14,7 +14,7 @@ export const FilterPanel = () => {
           </span>
         </div>
         <div className="filterBox">
-          Base Categorys{' '}
+          Base Category{' '}
           <span className="chevron">
             <GoChevronDown />
           </span>

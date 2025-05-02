@@ -1,6 +1,6 @@
 import './CategoryTable.css';
 import React from 'react';
-import { EditBox } from '../icons/EditBox';
+import { EditBox } from '../../components/common/EditBox';
 
 export const CategoryTable = () => {
   return (

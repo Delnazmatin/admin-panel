@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { VscDashboard } from 'react-icons/vsc';
 import { TbCategoryPlus } from 'react-icons/tb';
 import { TfiMenuAlt } from 'react-icons/tfi';
-import { BsTable } from 'react-icons/bs';
 import { IoPricetagsOutline } from 'react-icons/io5';
 
 export const SideBar = () => {
@@ -39,14 +38,6 @@ export const SideBar = () => {
                 <TfiMenuAlt />
               </span>
               <span>Products</span>
-            </li>
-          </Link>
-          <Link to="/table">
-            <li>
-              <span className="item-icon">
-                <BsTable />
-              </span>
-              <span>Table</span>
             </li>
           </Link>
           <Link to="/priceList">
