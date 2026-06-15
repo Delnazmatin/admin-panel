@@ -1,7 +1,6 @@
 import './ProfilePopUp.css';
 import { CgClose } from 'react-icons/cg';
 import { CgProfile } from 'react-icons/cg';
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 export const ProfilePopUp = ({ isOpen, onClose }) => {

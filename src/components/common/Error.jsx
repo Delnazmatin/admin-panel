@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './Error.css';
-import React from 'react';
 import errorImage from '../../assets/error.jpg';
 
 export const Error = () => {

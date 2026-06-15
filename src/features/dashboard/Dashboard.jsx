@@ -1,5 +1,4 @@
 import './Dashboard.css';
-import React from 'react';
 import dashboardImage from '../../assets/dashboard.jpg';
 
 export const Dashboard = () => {

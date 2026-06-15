@@ -1,7 +1,7 @@
 import './Header.css';
 import { CiSearch } from 'react-icons/ci';
 import { CgProfile } from 'react-icons/cg';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ProfilePopUp } from '../common/ProfilePopUp';
 
 export const Header = () => {

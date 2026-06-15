@@ -2,7 +2,6 @@ import './Products.css';
 import { Link } from 'react-router-dom';
 import { CategoryTable } from '../categories/CategoryTable';
 import { FilterPanel } from '../../components/common/FilterPanel';
-import React from 'react';
 
 export const Products = () => {
   return (

@@ -1,8 +1,66 @@
-# React + Vite
+# Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Admin Dashboard built with React as part of my front-end development learning journey. This project focuses on authentication, dashboard management, routing, and responsive user interface design.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application starts with Login and Sign Up pages. After successful authentication, users are redirected to the dashboard, where they can manage categories and review or update pricing information.
+
+## Features
+
+- Authentication System
+
+  - Login page
+  - Sign Up page
+
+- Dashboard
+
+  - Centralized admin panel interface
+  - Easy navigation between sections
+
+- Category Management
+
+  - Create new categories
+  - Edit existing categories
+
+- Price Management
+
+  - View price data
+  - Update pricing information
+
+- Responsive Design
+
+  - Optimized for desktop, tablet, and mobile devices
+
+- Routing
+
+  - Implemented using React Router
+
+## Technologies Used
+
+- React
+- React Router
+- JavaScript (ES6+)
+- CSS3
+
+## Screenshot
+
+<img src="./public/screenshot/adminPanel-screenshot.png" alt="Admin Panel Screenshot" width="800" />
+
+## Learning Goals
+
+This was one of my first React projects and was built to practice:
+
+- Component-based architecture
+- Client-side routing with React Router
+- Building responsive layouts
+- Managing application structure
+- Creating reusable UI components
+
+## Future Improvements
+
+- API integration
+- State management with Context API or Redux
+- User role permissions
+- Dark mode support
+- Improved form validation
