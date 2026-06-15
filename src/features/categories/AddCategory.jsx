@@ -1,5 +1,4 @@
 import './AddCategory.css';
-import React from 'react';
 import { MdAddPhotoAlternate } from 'react-icons/md';
 import { useState } from 'react';
 

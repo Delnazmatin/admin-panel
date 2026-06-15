@@ -1,6 +1,5 @@
 import './AddProduct.css';
 import { MdAddPhotoAlternate } from 'react-icons/md';
-import React from 'react';
 
 export const AddProduct = () => {
   return (

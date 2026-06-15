@@ -10,7 +10,6 @@
 .categoryTable table {
   border-collapse: collapse;
 }
-
 .categoryTable thead {
   color: var(--Black);
   background-color: var(--MiddleGray);

@@ -1,5 +1,4 @@
 import './FilterPanel.css';
-import React from 'react';
 import { RiFilterLine } from 'react-icons/ri';
 import { GoChevronDown } from 'react-icons/go';
 import { RiFilterOffLine } from 'react-icons/ri';

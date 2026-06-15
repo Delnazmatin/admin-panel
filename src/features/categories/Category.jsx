@@ -1,5 +1,4 @@
 import './Category.css';
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { CategoryTable } from './CategoryTable';
 import { FilterPanel } from '../../components/common/FilterPanel';

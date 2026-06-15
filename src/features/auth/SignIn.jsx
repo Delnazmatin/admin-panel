@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import './SignIn.css';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ProtectedRoute } from '../../routes/ProtectedRoute';
 
 export const SignIn = ({ setIsAuthenticated }) => {
